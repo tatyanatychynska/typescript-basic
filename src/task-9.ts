@@ -33,7 +33,7 @@ const numberContainer: Container<number> = {
     this.items.push(item);
   },
   getItem(index) {
-    return this.items(index);
+    return this.items[index];
   },
 };
 
@@ -43,7 +43,7 @@ const stringContainer: Container<string> = {
     this.items.push(item);
   },
   getItem(index) {
-    return this.items(index);
+    return this.items[index];
   },
 };
 function getLastElement<T>(arr: T[]): T {
